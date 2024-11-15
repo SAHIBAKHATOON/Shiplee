@@ -1,0 +1,142 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+    text-align: center;
+  }
+  
+  p {
+    color: #555;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .cta-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #fff;
+    color: #2575fc;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Why Choose Shiplee */
+  .why-choose {
+    padding: 40px 20px;
+  }
+  
+  .benefits {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .benefit {
+    max-width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .benefit:hover {
+    transform: translateY(-10px);
+  }
+  
+  /* Franchise Benefits Table */
+  .benefits-table {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  table {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  th img {
+    width: 20px;
+    margin-right: 10px;
+  }
+  
+  /* Network Section */
+  .network {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .network img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Partners Section */
+  .partners {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .logos-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .partner-logo {
+    width: 100px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+  }
+  
+  .partner-logo:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .benefits {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    table {
+      font-size: 14px;
+    }
+  
+    .logos-grid {
+      flex-wrap: wrap;
+    }
+  }
+  
